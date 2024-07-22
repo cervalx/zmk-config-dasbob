@@ -39,10 +39,10 @@
 
         Base {
             bindings = <
-  &kp Q  &kp W  &kp F       &kp P            &kp B           &kp J            &kp L            &kp U      &kp Y    &kp SEMICOLON
-  &kp A  &kp R  &kp S       &kp T            &kp G           &kp M            &kp N            &kp E      &kp I    &kp O
-  &kp Z  &kp X  &kp C       &kp D            &kp V           &kp K            &kp H            &kp COMMA  &kp DOT  &kp SLASH
-                &kp ESCAPE  &hm LSHFT SPACE  &lt 1 DELETE    &lt 2 BACKSPACE  &hm RSHFT SPACE  &kp ENTER
+  &kp Q  &kp W  &kp F       &kp P            &kp B        &kp J            &kp L            &kp U      &kp Y    &kp SEMICOLON
+  &kp A  &kp R  &kp S       &kp T            &kp G        &kp M            &kp N            &kp E      &kp I    &kp O
+  &kp Z  &kp X  &kp C       &kp D            &kp V        &kp K            &kp H            &kp COMMA  &kp DOT  &kp SLASH
+                &kp ESCAPE  &hm LSHFT SPACE  &lt 1 TAB    &lt 2 BACKSPACE  &hm RSHFT SPACE  &kp ENTER
             >;
         };
 
@@ -57,10 +57,10 @@
 
         Sym {
             bindings = <
-  &kp DOUBLE_QUOTES  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp LC(X)         &kp LC(C)  &kp UP         &kp LC(V)  &trans
-  &kp LS(NUMBER_1)   &kp LS(NUMBER_2)      &kp LS(NUMBER_3)       &kp LS(NUMBER_4)  &kp LS(N5)           &kp SINGLE_QUOTE  &kp LEFT   &kp DOWN       &kp RIGHT  &trans
-  &kp LS(NUMBER_6)   &kp LS(N7)            &kp LS(N8)             &kp LS(N9)        &kp LS(N0)           &kp MINUS         &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &trans
-                                           &trans                 &trans            &trans               &trans            &trans     &trans
+  &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp LC(X)         &kp LC(C)  &kp UP         &kp LC(V)  &trans
+  &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR            &kp PERCENT              &kp SINGLE_QUOTE  &kp LEFT   &kp DOWN       &kp RIGHT  &trans
+  &kp LCTRL          &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS         &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &trans
+                                     &trans           &trans                &trans                   &trans            &trans     &trans
             >;
         };
     };
