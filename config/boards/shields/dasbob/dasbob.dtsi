@@ -53,4 +53,8 @@
 		;
 	};
 
+	sensors: sensors {
+		compatible = "zmk,battery-nrf-vddh"
+	};
+
 };
