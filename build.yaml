@@ -17,4 +17,3 @@ include:
     shield: dasbob_left
   # - board: nice_nano_v2
   # shield: dasbob_right
-compatible: "zmk,battery-nrf-vddh"
