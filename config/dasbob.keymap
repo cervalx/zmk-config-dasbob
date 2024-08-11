@@ -48,10 +48,10 @@
 
         Num {
             bindings = <
-  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3         &bt BT_SEL 4    &kp F1   &kp F2   &kp F3      &kp F4  &kp F5
-  &kp NUMBER_1  &kp N2        &kp N3        &kp N4               &kp N5          &kp F6   &kp F7   &kp F8      &kp F9  &kp F10
-  &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9               &kp N0          &kp F11  &kp F12  &bt BT_CLR  &trans  &trans
-                              &bootloader   &hm LSHFT LWIN       &trans          &trans   &trans   &trans
+  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &kp F1   &kp F2   &kp F3      &kp F4  &kp F5
+  &kp NUMBER_1  &kp N2        &kp N3        &kp N4          &kp N5          &kp F6   &kp F7   &kp F8      &kp F9  &kp F10
+  &kp NUMBER_6  &kp NUMBER_7  &kp N8        &kp N9          &kp N0          &kp F11  &kp F12  &bt BT_CLR  &trans  &trans
+                              &trans        &hm LSHFT LWIN  &trans          &trans   &trans   &trans
             >;
         };
 
@@ -60,7 +60,7 @@
   &kp DOUBLE_QUOTES  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET        &kp LC(X)         &kp LC(C)  &kp UP         &kp LC(V)  &trans
   &kp EXCLAMATION    &kp AT_SIGN     &kp HASH         &kp DOLLAR            &kp PERCENT              &kp SINGLE_QUOTE  &kp LEFT   &kp DOWN       &kp RIGHT  &trans
   &kp LCTRL          &kp AMPERSAND   &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp MINUS         &kp EQUAL  &kp BACKSLASH  &kp GRAVE  &trans
-                                     &trans           &trans                &trans                   &trans            &trans     &bootloader
+                                     &trans           &trans                &trans                   &trans            &trans     &trans
             >;
         };
     };
